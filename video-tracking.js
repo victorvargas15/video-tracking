@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         fbq('trackCustom', 'VideoPlayed', {
           content_name: 'VSL Main Video',
           content_type: 'video',
-          content_ids: ['main-vsl']
+          content_ids: ['main-video']
         });
         hasFired = true;
       }
